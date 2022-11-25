@@ -2,7 +2,7 @@ import React, {useState, useEffect}from "react";
 import axios from "axios";
 import './Body.css';
 
-const baseURL = "https://virtualDoctor.onrender.com";
+const baseURL = "http://localhost:7000/doctorData/";
 
 
 function Body()
