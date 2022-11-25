@@ -15,7 +15,11 @@ function Footer()
               {/*    <!--Grid column--> */}
               <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
                 {/*   <!--<h5 className="text-uppercase text-light text-bold">QuickBuy</h5>-->  */}
-                <img src="/logo/logo.png" alt="logo" className="logoForFooter" />
+                <img
+                  src="/logo/logo.png"
+                  alt="logo"
+                  className="logoForFooter"
+                />
                 <p className="text">
                   Confirmation of your appointment with a specific
                   doctor/physician, as per his/her availability, shall be sent
@@ -34,11 +38,7 @@ function Footer()
                       About Us
                     </Link>
                   </li>
-                  <li>
-                    <Link to="/AboutPage" className="text">
-                      Return and Exchange Policy
-                    </Link>
-                  </li>
+
                   <li>
                     <Link to="/AboutPage" className="text">
                       Refund Policy
@@ -71,35 +71,15 @@ function Footer()
                 <ul className="list-unstyled icons mb-0 ">
                   <li>
                     <Link
-                      to="/mailto: quickbuy.fashion@gmail.com"
+                      to="/mailto: nasratullahmirzai@gmail.com"
                       target="_blank"
                       className="far fa-envelope fa-2x"
                     ></Link>
                   </li>
-                  <li>
-                    <Link
-                      to="/https://www.facebook.com/QuickBuy-1167360453302956"
-                      target="_blank"
-                      className="fab fa-facebook fa-2x"
-                    ></Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/https://www.instagram.com/quick_.buy/"
-                      target="_blank"
-                      className="fab fa-instagram fa-2x"
-                    ></Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/https://twitter.com/QuickBuy11"
-                      target="_blank"
-                      className="fab fa-twitter fa-2x"
-                    ></Link>
-                  </li>
+                  <li>9074748757</li>
+                  <li>nasratullahmirzai@gmail.com</li>
                 </ul>
               </div>
-            
             </div>
             {/*  <!--Grid row--> */}
           </div>

@@ -3,7 +3,7 @@ import React from "react";
 import "./DoctorDetails.css";
 import axios from "axios";
 
-const baseURL = "http://localhost:7000/doctorData/";
+const baseURL = "http://localhost:5000/doctorData/";
 export default function App() {
   
   const [previous, setNew] = React.useState([{}]);
@@ -92,7 +92,12 @@ export default function App() {
                 </div>
               </div>
             </div>
-            <button class="btn btn-primary" type="button">Start Video Call</button>
+            <a href={'/ji/'}>
+              {" "}
+              <button class="btn btn-primary" type="button">
+                Start Video Call
+              </button>
+            </a>
           </div>
         </form>
       </div>
